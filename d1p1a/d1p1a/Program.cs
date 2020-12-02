@@ -24,7 +24,7 @@ namespace d1p1a
                         if (!result)
                             continue;
 
-                        if (number < 1010)
+                        if (number < 2020/2)
                             itemsLower.Add(number);
                         else
                             itemsHigher.Add(number);
