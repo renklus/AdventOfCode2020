@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d2p1a", "d2p1a\d2p1a.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d2p2a", "d2p2a\d2p2a.csproj", "{0AF6305C-185F-401C-AE32-2FAF27DA6009}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d3p1a", "d3p1a\d3p1a.csproj", "{1931BB55-48E7-4ED2-AC02-37E8D01320CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d3p2a", "d3p2a\d3p2a.csproj", "{1EA47AD9-BB71-4977-A0EF-1EA06DF65BEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{0AF6305C-185F-401C-AE32-2FAF27DA6009}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AF6305C-185F-401C-AE32-2FAF27DA6009}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AF6305C-185F-401C-AE32-2FAF27DA6009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1931BB55-48E7-4ED2-AC02-37E8D01320CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1931BB55-48E7-4ED2-AC02-37E8D01320CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1931BB55-48E7-4ED2-AC02-37E8D01320CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1931BB55-48E7-4ED2-AC02-37E8D01320CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA47AD9-BB71-4977-A0EF-1EA06DF65BEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA47AD9-BB71-4977-A0EF-1EA06DF65BEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA47AD9-BB71-4977-A0EF-1EA06DF65BEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA47AD9-BB71-4977-A0EF-1EA06DF65BEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
