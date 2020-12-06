@@ -1,0 +1,12 @@
+{
+  "author": "renklus",
+  "classifications": [ "AdventOfCode" ],
+  "name": "AdventOfCode 2020",
+  "identity": "AdventOfCode",        // Unique name for this template
+  "shortName": "aoc",                 // Short name that can be used on the cli
+  "tags": {
+    "language": "C#"                       // Specify that this template is in C#.
+  },
+  "sourceName": "template",      // Will replace the string 'template' with the value provided via -n.
+  "preferNameDirectory" : "true"
+}
