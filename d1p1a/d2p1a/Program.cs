@@ -45,7 +45,6 @@ namespace d2p1a
 
                         if (count >= conditionLower && count <= conditionUpper)
                             valid++;
-
                     } while (line != null);
                 }
             }

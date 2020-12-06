@@ -51,7 +51,7 @@ namespace d5p2a
                     } while (line != null);
                 }
 
-                for (var i = 0; i < seatIDs.Length-1; i++)
+                for (var i = 0; i < seatIDs.Length - 1; i++)
                 {
                     if (seatIDs[i + 1] && seatIDs[i - 1] && !seatIDs[i])
                         Console.Out.WriteLine(i);

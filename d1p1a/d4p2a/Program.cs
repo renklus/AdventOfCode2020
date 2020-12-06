@@ -2,7 +2,6 @@
 
 using System;
 using System.IO;
-using System.Linq;
 using System.Threading.Tasks;
 
 #endregion
@@ -28,8 +27,6 @@ namespace d4p2a
 
                     do
                     {
-                        
-                        
                         line = await tr.ReadLineAsync().ConfigureAwait(false);
                     } while (line != null);
                 }

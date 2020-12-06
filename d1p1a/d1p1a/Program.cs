@@ -1,18 +1,26 @@
-﻿using System;
+﻿#region Usings
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
+#endregion
+
 namespace d1p1a
 {
-    class Program
+    internal class Program
     {
-        static async Task Main(string[] args)
+        private static async Task Main(string[] args)
         {
             IList<int> itemsLower = new List<int>();
             HashSet<int> itemsHigher = new HashSet<int>();
-            
-            using (FileStream fs = new FileStream("input.txt", FileMode.Open,FileAccess.Read,FileShare.Read))
+
+            using (FileStream fs = new FileStream(
+                "input.txt",
+                FileMode.Open,
+                FileAccess.Read,
+                FileShare.Read))
             {
                 using (TextReader tr = new StreamReader(fs))
                 {
@@ -24,7 +32,7 @@ namespace d1p1a
                         if (!result)
                             continue;
 
-                        if (number < 2020/2)
+                        if (number < 2020 / 2)
                             itemsLower.Add(number);
                         else
                             itemsHigher.Add(number);
@@ -34,8 +42,8 @@ namespace d1p1a
 
             foreach (var item in itemsLower)
             {
-               if( itemsHigher.Contains(2020 - item))
-                   Console.Out.WriteLine($"{item} * {2020-item} = {item * (2020-item)}");
+                if (itemsHigher.Contains(2020 - item))
+                    Console.Out.WriteLine($"{item} * {2020 - item} = {item * (2020 - item)}");
             }
         }
     }

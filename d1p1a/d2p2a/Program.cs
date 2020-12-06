@@ -1,17 +1,21 @@
-﻿using System;
+﻿#region Usings
+
+using System;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
+#endregion
+
 namespace d2p2a
 {
-    class Program
+    internal class Program
     {
         private static async Task Main(string[] args)
         {
             var valid = 0;
 
-            using (FileStream fs = new FileStream(
+            using (var fs = new FileStream(
                 "input.txt",
                 FileMode.Open,
                 FileAccess.Read,
@@ -37,7 +41,7 @@ namespace d2p2a
                             continue;
 
                         var password = element.password;
-                        int count = 0;
+                        var count = 0;
 
                         if (password.ElementAt(conditionFirst - 1) == character)
                             count++;
@@ -45,7 +49,6 @@ namespace d2p2a
                             count++;
                         if (count == 1)
                             valid++;
-
                     } while (line != null);
                 }
             }
